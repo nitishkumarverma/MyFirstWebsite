@@ -116,7 +116,7 @@ shareBtn.addEventListener('click', () => {
       title,
       url
     }).then(() => {
-      showMessage(shareBtn, 'Thanks! 😄');
+      showMessage(shareBtn, 'Thanks for sharing! 😄');
     })
     .catch(err => {
       showMessage(shareBtn, `Couldn't share 🙁`);
@@ -130,7 +130,7 @@ function showMessage(element, msg) {
   element.textContent = msg;
   setTimeout(() => {
     element.textContent = ogBtnContent;
-  }, 2000);
+  }, 5000);
 }
     
 </script>
