@@ -75,13 +75,14 @@ body {
   <a href="page4.html">Page 4</a>
   <a href="page5.html">Page 5</a>
 </div>
-<i class="share-btn">cloud</i>
+
 <div id="maman">
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
 <div class="right"><i class="material-icons"><a href="index.html" style="text-decoration:none;font-size:30px"> home</a></i>
 </div>
 
   <h1>Home</h1>
+  <i class="share-btn">cloud</i>
   <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p></br>
   
   <h2>Sub Heading 1</h2>
@@ -102,7 +103,7 @@ function closeNav() {
     document.getElementById("main").style.marginLeft= "0";
 }
     
- const shareBtn = document.querySelector('.share-btn');
+const shareBtn = document.querySelector('.share-btn');
 const ogBtnContent = shareBtn.textContent;
 const title = document.querySelector('h1').textContent;
 const url = document.querySelector('link[rel=canonical]') &&
